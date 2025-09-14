@@ -28,7 +28,6 @@ def main():
     generate_content(client=client, messages=messages, verbose=verbose)
 
 
-
 def generate_content(client, messages, verbose):
 
     response = client.models.generate_content(
